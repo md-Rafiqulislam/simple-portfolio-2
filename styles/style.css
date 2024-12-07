@@ -1,0 +1,44 @@
+/* import font open sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
+
+/* shared style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.orange-text {
+    color: #fd6e0a;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.primary-btn {
+    background-color: #fd6e0a;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight:  bold;
+    padding: 15px 30px;
+}
+
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
