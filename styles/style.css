@@ -121,3 +121,58 @@ nav ul {
 .about-info {
     text-align: center;
 }
+
+/* skill section */
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.skill {
+    background-color: antiquewhite;
+    /* margin: 10px; */
+    padding: 30px; 
+    border-radius: 10px;
+}
+
+
+
+/* resumee section */
+
+.resumee-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    gap: 50px;
+}
+
+.resumee-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.resumee-item {
+    margin: 25px 0;
+}
+
+.resumee-item-title {
+    margin: 10px 0;
+}
+
+.resumee-item-institute {
+    margin: 0 0 10px 0;
+}
+
+
+.dwonload-cv {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
