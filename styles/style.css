@@ -53,6 +53,11 @@ li {
     background-position: bottom right;
 }
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* nav related styles */
 nav {
     display: flex;
@@ -105,4 +110,14 @@ nav ul {
     background-color: #fff8f3;
     border-radius: 10px;
     margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-info {
+    text-align: center;
 }
